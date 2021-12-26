@@ -1,5 +1,5 @@
 local user = {
-    ["NetKing"] = true,
+    ["Smhss"] = true,
 }
 
 local name = globals.get_username()
