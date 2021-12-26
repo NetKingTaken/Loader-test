@@ -1,11 +1,5 @@
-local user = {
-    ["Smhss"] = true,
-}
-
-local name = globals.get_username()
-if user[name] == nil then
-print("ok")
-client.log("Anti crack!")
-menu.add_slider_int("Anti crack!", 0, 0)
-return
+local users = "NetKing, user2, user3"
+local username = globals.get_username()
+if string.find(users, username) then
+    menu.set_bool("misc.clan_tag", true)
 end
