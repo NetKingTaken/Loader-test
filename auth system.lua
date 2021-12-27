@@ -2,4 +2,6 @@ local users = "NetKing, Surfacefish, Smhss, Zmining, renzy, Lugaw, zenkick, Adyy
 local username = globals.get_username()
 if string.find(users, username) then
     menu.set_bool("misc.clan_tag", true)
+    else
+    menu.set_bool("misc.rank_reveal", true)
 end
